@@ -34,7 +34,7 @@ os.makedirs("uploads", exist_ok=True)
 # AUTO-DOWNLOAD MODEL FROM HUGGING FACE HUB
 # (only runs if model files are missing — e.g. first deploy)
 # ─────────────────────────────────────────────────────────────
-HF_REPO_ID = os.environ.get("HF_REPO_ID", "YOUR_HF_USERNAME/nephroscan")
+HF_REPO_ID = os.environ.get("HF_REPO_ID", "atharvabarde/nephroscan")
 
 def download_model_if_needed():
     """Download model weights from HF Hub if not present locally."""
