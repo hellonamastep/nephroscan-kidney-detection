@@ -1,0 +1,36 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.env.local
+
+# Data & uploads
+uploads/
+data/
+*.zip
+
+# Model weights (upload to HF Hub separately)
+model/*.keras
+model/*.h5
+
+# Keep these tracked:
+# model/class_indices.json  ← small file, safe to track
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
